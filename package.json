@@ -27,7 +27,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
-    "kubemq-js": "1.2.3"
+    "moat-lib-be-pubsub": "1.0.5"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
