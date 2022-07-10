@@ -28,7 +28,8 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "moat-lib-be-pubsub": "1.0.5",
-    "mongodb": "4.7.0"
+    "@nestjs/mongoose": "9.2.0",
+    "mongoose": "6.4.4"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
