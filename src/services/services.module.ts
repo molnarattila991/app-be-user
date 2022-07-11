@@ -9,7 +9,7 @@ import { User, UserSchema } from 'src/models/schemas/user.schema';
         MongooseModule.forFeature([{ name: User.name, schema: UserSchema }])
     ],
     providers: [
-        BusModule.initConsumer("userGroup", "localhost:50000"),
+        BusModule.initConsumer(process.env["NEST_APP_NAME"], process.env["NEST_MQ_CONNECTION_STRING"]),
         UserConsumerService,
     ],
     exports: [
