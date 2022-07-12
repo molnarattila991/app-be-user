@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: app-be-user
-          image: app-be-user:v1.0.3
+          image: app-be-user:v1.0.4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3001
